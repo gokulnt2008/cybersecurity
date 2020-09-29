@@ -176,7 +176,7 @@
      function findinfo() {
          $.get("https://ipapi.co/json",function(data)
          {
-             document.getElementById("out").innerHTML="<b>IP Address: </b>"+data.ip+"<br><br><b>Location: </b>"+data.city+","+data.region+","+data.country_name+"<br><br><b>ISP: </b>"+data.org+"<br><br><b>Zip Code: </b>"+data.zip+"<br><br><b>Latitude: </b>"+data.lat+"<br><br><b>Longitude: </b>"+data.lon+""
+             document.getElementById("out").innerHTML="<b>IP Address: </b>"+data.ip+"<br><br><b>Location: </b>"+data.city+","+data.region+","+data.country_name+"<br><br><b>ISP: </b>"+data.org+"<br><br><b>Zip Code: </b>"+data.postal+"<br><br><b>Latitude: </b>"+data.latitude+"<br><br><b>Longitude: </b>"+data.longitude+""
          })
      }
 
