@@ -174,7 +174,7 @@
 
  <script>
      function findinfo() {
-         $.get("http://ip-api.com/json/?fields=66846719",function(data)
+         $.get("https://ipapi.co/json",function(data)
          {
              document.getElementById("out").innerHTML="<b>IP Address: </b>"+data.query+"<br><br><b>Location: </b>"+data.city+","+data.regionName+","+data.country+"<br><br><b>ISP: </b>"+data.org+"<br><br><b>Zip Code: </b>"+data.zip+"<br><br><b>Latitude: </b>"+data.lat+"<br><br><b>Longitude: </b>"+data.lon+""
          })
